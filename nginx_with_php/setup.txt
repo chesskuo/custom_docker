@@ -1,0 +1,5 @@
+apt install -y docker.io docker-compose certbot
+certbot certonly
+certbot renew --dry-run
+
+Let's Encryt generates the certification
